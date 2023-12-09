@@ -1,0 +1,25 @@
+.header_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.header__list{
+    display: flex;
+    gap: 40px;
+}
+
+.header__item{
+    color: var(--1f1534-hyfen, #1F1534);
+font-size: 18px;
+font-weight: 400;
+opacity: 0.5;
+}
+
+.header__item:hover{
+    color: var(--1f1534-hyfen, #1F1534);
+font-size: 18px;
+font-weight: 700;
+}

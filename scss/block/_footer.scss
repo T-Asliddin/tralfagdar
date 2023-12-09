@@ -1,0 +1,60 @@
+.foter{
+    background-color: #4E89CB ;
+    position: relative;
+
+    &::before{
+        content: "";
+        width: 132px;
+        height: 115px;
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-image: url(../../img/element.svg);
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+}
+
+.foter_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 109px 190px ;
+    
+
+
+}
+
+.foter__tralfagadar{
+    max-width: 385px;
+}
+
+.header__logo_box{
+    margin-bottom: 17px;
+}
+
+.text{
+    color: #FFF;
+font-size: 18px;
+font-weight: 300;
+line-height: 28px;
+}
+
+.foter__tralfagadar_text{
+    margin-bottom: 31px;
+}
+
+.foter__company_title{
+    color: #FFF;
+font-size: 20px;
+font-weight: 700;
+line-height: 60px;
+}
+
+.foter__company_item{
+    color: #FFF;
+font-size: 18px;
+font-weight: 300;
+line-height: 38px; 
+}

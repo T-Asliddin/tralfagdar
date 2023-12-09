@@ -1,0 +1,60 @@
+.dowland__box1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 220px;
+}
+
+.dowland__content_box{
+     width: 416px;
+}
+
+.dowland__content_title{
+    color: #000;
+font-size: 36px;
+font-weight: 700;
+line-height: 56px; 
+margin-bottom: 26px;
+}
+
+.dowland__content_line{
+    width: 56px;
+    height: 2px;
+    display: inline-block;
+    border-radius: 5px;
+    background-color: #000;
+    margin-bottom: 33px;
+}
+
+.dowland__content_text{
+    color: #7D7987;
+font-size: 18px;
+font-weight: 300;
+line-height: 30px;
+margin-bottom: 25px;
+}
+
+.dowland__content_btn{
+    max-width: 220px;
+    height: 60px;
+    border-radius: 55px;
+    border: 1.4px solid #458FF6;
+    color: #458FF6;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 60px; 
+    display: block;
+    padding: 1px 50px;
+
+ 
+}
+
+.btn2::after{
+    content: "";
+    width: 10px;
+    height: 15px;
+    background-image: url(../../img/app-icon.svg);
+    display: inline-block;
+    background-repeat: no-repeat;
+    margin-left: 15px;
+}
